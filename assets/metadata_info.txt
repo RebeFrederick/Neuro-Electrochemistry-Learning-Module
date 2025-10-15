@@ -1,0 +1,29 @@
+-----------------------------------------------------
+data_PEDOT.csv
+-----------------------------------------------------
+Raw Data Source Files:
+20250430_IF0013_IIA39_PEDOT_E05_A_OCP.DTA
+20250430_IF0013_IIA39_PEDOT_E05_B_EIS.DTA
+20250430_IF0013_IIA39_PEDOT_E05_C_CV50.DTA	Curve#3
+20250430_IF0013_IIA39_PEDOT_E05_D_CV100.DTA	Curve#3
+20250430_IF0013_IIA39_PEDOT_E05_E_CV500.DTA	Curve#3
+20250430_IF0013_IIA39_PEDOT_E05_F_CV1000.DTA	Curve#3
+20250430_IF0013_IIA39_PEDOT_E05_G_CV3000.DTA	Curve#3
+20250430_IF0013_IIA39_PEDOT_E05_H_CV5000.DTA	Curve#3
+20250430_IF0013_IIA39_PEDOT_E05_I_CV10000.DTA	Curve#3
+20250430_IF0013_IIA39_PEDOT_E05_J_CV50000.DTA	Curve#3
+
+Electrode Info:
+PEDOT:PSS electrodeposited on gold microelectrode array
+Diameter = 50um
+Geometric Surface Area = 1963.5 um^2
+MEA Substrate = Polyimide
+
+-----------------------------------------------------
+data_GOLDmilli.csv
+-----------------------------------------------------
+Raw Data Source Files:
+
+
+Electrode Info:
+
