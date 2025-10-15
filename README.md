@@ -1,17 +1,16 @@
 # Neuro-Electrochemistry Learning Module
-Rebecca A. Frederick
-Updated: 2025-OCT-14
+by Rebecca A. Frederick, Ph.D. <br /> Last Updated 2025-OCT-14
 
 ## Main Software:
-Spyder v6.0.7
-(Anaconda Navigator v2.6.6)
-(Python v3.12.7)
+- Spyder v6.0.7
+- Anaconda Navigator v2.6.6
+- Python v3.12.7
 
 ## Required Install Packages:
-pandas (v2.3.0)
-plotly (v6.0.1)
-dash (v2.14.2)
-dash-bootstrap-components
+- pandas (v2.3.0)
+- plotly (v6.0.1)
+- dash (v2.14.2)
+- dash-bootstrap-components
 
 
 # Pull Example Data Into Data Frames:
