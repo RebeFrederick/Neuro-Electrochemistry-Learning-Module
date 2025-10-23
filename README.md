@@ -13,15 +13,16 @@ by Rebecca A. Frederick, Ph.D. <br /> Last Updated 2025-OCT-23
 
 # App Instructions
 
-## Main Software:
+## Software:
 - Spyder v6.0.7
 - Anaconda Navigator v2.6.6
 - Python v3.12.7
 
-## Required Install Packages:
+## Required Packages:
 - pandas (v2.3.0)
 - plotly (v6.0.1)
 - dash (v2.14.2)
+
 
 ## Running the App Locally with Python
 
@@ -29,10 +30,12 @@ by Rebecca A. Frederick, Ph.D. <br /> Last Updated 2025-OCT-23
 - data_PEDOT <br /> PEDOT:PSS Electrodes = 1963.5 um^2 GSA, 50um Diameter, Electrodeposited on Gold
 - data_Goldmilli <br /> 
 
+***< In Progress >***
+
 
 ## Running the App Locally in a Web Browser
-  
-  ***In Progress***
+
+***< In Progress >***
 
 
 ## References:
