@@ -8,10 +8,12 @@ A1b. Current-Voltage Relationships
 - Resistors
 - Capacitors
 - Inductors
+
 A1c. Impedance Relationships
 - Resistors
 - Capacitors
 - Inductors
+
 A2. Neuroanatomy and Neurophysiology Basics <br />
 A2a. Brain Overview <br />
 A2b. Spinal Cord Overview <br />

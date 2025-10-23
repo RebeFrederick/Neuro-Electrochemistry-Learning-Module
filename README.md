@@ -3,11 +3,11 @@ by Rebecca A. Frederick, Ph.D. <br /> Last Updated 2025-OCT-23
 
 
 # Course Outline
-[https://github.com/RebeFrederick/Neuro-Electrochemistry-Learning-Module/tree/main/NeuroEchem_Outline.md](https://github.com/RebeFrederick/Neuro-Electrochemistry-Learning-Module/tree/main/NeuroEchem_Outline.md)
+[NeuroEchem_Outline.md](https://github.com/RebeFrederick/Neuro-Electrochemistry-Learning-Module/tree/main/NeuroEchem_Outline.md)
 
 
 # Reading Lists
-[https://github.com/RebeFrederick/Neuro-Electrochemistry-Learning-Module/tree/main/NeuroEchem_Reading.md](https://github.com/RebeFrederick/Neuro-Electrochemistry-Learning-Module/tree/main/NeuroEchem_Reading.md)
+[NeuroEchem_Reading.md](https://github.com/RebeFrederick/Neuro-Electrochemistry-Learning-Module/tree/main/NeuroEchem_Reading.md)
 
 &nbsp;
 
