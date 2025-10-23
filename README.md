@@ -31,7 +31,8 @@ by Rebecca A. Frederick, Ph.D. <br /> Last Updated 2025-OCT-23
 
 
 ## Running the App Locally in a Web Browser
-  ~~~***In Progress***~~~
+  
+  ***In Progress***
 
 
 ## References:
