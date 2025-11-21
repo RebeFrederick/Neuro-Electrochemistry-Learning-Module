@@ -64,16 +64,16 @@ Reference:  LibreTexts&trade; Chemistry Library  >  Analytical Chemistry  >  Ele
 
 Reference: Standard Operating Procedures for Cyclic Voltammetry by Daniel Graham [https://sop4cv.com/](https://sop4cv.com/)
 ### B1a. Definitions:
-- Cathode:  the electrode within a cell that gains electrons, i.e. the electrode that is reduced. <br/>
+- **Cathode**:  the electrode within a cell that gains electrons, i.e. the electrode that is reduced. <br/>
   Note: In a **galvanic** cell (see B1b below), the potential of the cathode vs. reference will be **positive***, because the spontaneous reaction within the electrolyte polarizes the electrode to be positive and attract electrons to move away from the anode through the connected electrical circuit. In an **electrolytic** cell (see B1b below), the potential of the cathode vs. reference will be **negative**, because the connected electrical circuit is used to move electrons away from the anode and into the cathode to drive reactions within the electrolyte.
-- Anode:  the electrode within a cell that looses electrons, i.e. the electrode that is oxidized. <br/>
+- **Anode**:  the electrode within a cell that looses electrons, i.e. the electrode that is oxidized. <br/>
   Note: In a **galvanic** cell (see B1b below), the potential of the anode vs. reference will be **negative**, because the spontaneous reaction within the electrolyte polarizes the electrode to be positive and attract electrons to move away from the anode through the connected electrical circuit. In an **electrolytic** cell (see B1b below), the potential of the anode vs. reference will be **positive**, because the connected electrical circuit is used to move electrons away from the anode and into the cathode to drive reactions within the electrolyte.
-- Cation:  A cation is a positively charged ion, i.e. an ion containing fewer electrons than protons. 
-- Anion:  An anion is a negatively charged ion, i.e. an ion containing more electrons than protons.
-- Cathodal or Cathodic (Electrical Current):  the flow of electrons *away from* an electrode. In an electrolytic cell, the flow of electrons *from* the power source *to* the cathode and then *from* the cathode *to* a species in the electrolyte solution. By International Union of Pure and Applied Chemistry (IUPAC) definition, cathodic current amplitude is defined as negative.
-- Anodal or Anodic (Electrical Current):  the flow of electrons *into* an electrode. In an electrolytic cell, the flow of electrons *from* a species in the electrolyte solution *to* the anode and then *from* the anode back *to* the power source. By International Union of Pure and Applied Chemistry (IUPAC) definition, anodic current amplitude is defined as positive.
-- Cathodic (Chemical Reaction):  a reduction reaction; gain of electrons.
-- Anodic (Chemical Reaction):  an oxidation reaction; loss of electrons.
+- **Cation**:  A cation is a positively charged ion, i.e. an ion containing fewer electrons than protons. 
+- **Anion**:  An anion is a negatively charged ion, i.e. an ion containing more electrons than protons.
+- **Cathodic or Cathodal (Electrical Current)**:  the flow of electrons *away from* an electrode. In an electrolytic cell, the flow of electrons *from* the power source *to* the cathode and then *from* the cathode *to* a species in the electrolyte solution. By International Union of Pure and Applied Chemistry (IUPAC) definition, cathodic current amplitude is defined as negative.
+- **Anodic or Anodal (Electrical Current)**:  the flow of electrons *into* an electrode. In an electrolytic cell, the flow of electrons *from* a species in the electrolyte solution *to* the anode and then *from* the anode back *to* the power source. By International Union of Pure and Applied Chemistry (IUPAC) definition, anodic current amplitude is defined as positive.
+- **Cathodic (Chemical Reaction)**:  a reduction reaction; gain of electrons.
+- **Anodic (Chemical Reaction)**:  an oxidation reaction; loss of electrons.
 
 ### B1b. Electrochemical Cells
 There are different types of cells in electrochemistry. <br/>
@@ -177,5 +177,6 @@ Reference: J. T. Mortimer and N. Bhadra, “Applied Neural Control,” Applied N
 
 
 # D. Summary
+
 
 
