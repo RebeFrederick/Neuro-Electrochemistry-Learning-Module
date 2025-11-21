@@ -1,5 +1,5 @@
 # **Reading Lists**
-by Rebecca A. Frederick, Ph.D. <br /> Last Updated 2025-OCT-23
+by Rebecca A. Frederick, Ph.D. <br /> Last Updated 2025-NOV-21
 
 
 # Key References for Neuro-Electrochemistry
@@ -27,7 +27,7 @@ by Rebecca A. Frederick, Ph.D. <br /> Last Updated 2025-OCT-23
 
 # Additional Reading for Neuro-Electrochemistry
 
-1. 1994 - "Chronic neural recording with multicontact silicon microprobes: Effects of electrode bias" by EM Schmidt, WJ Heetderks, DM Camesi-Cole [PDF](https://github.com/RebeFrederick/Neuro-Electrochemistry-Learning-Module/tree/main/assets/1994_Schmidt_Effects of electrode bias.pdf)
+1. 1994 - "Chronic neural recording with multicontact silicon microprobes: Effects of electrode bias" by EM Schmidt, WJ Heetderks, DM Camesi-Cole [Open PDF](https://github.com/RebeFrederick/Neuro-Electrochemistry-Learning-Module/tree/main/assets/1994_Schmidt_Effects-of-electrode-bias.pdf)
 2. 1994 - “Electrical properties of implant encapsulation tissue” by Warren M. Grill, J. Thomas Mortimer [https://doi.org/10.1007/BF02368219](https://doi.org/10.1007/BF02368219)
 3. 1999 - “Chronic electrical stimulation of the auditory nerve using non-charge- balanced stimuli” by RK Shepherd, N Linahan, J Xu, GM Clark, S Araki [https://doi.org/10.1080/00016489950180621](https://doi.org/10.1080/00016489950180621)
 4. 2005 - “Impedance characterization of microarray recording electrodes in vitro” by D. R. Merrill, P. A. Tresco [https://doi.org/10.1109/TBME.2005.856245](https://doi.org/10.1109/TBME.2005.856245)
@@ -99,7 +99,7 @@ Platinum Dissolution:
 - 2021 - “Platinum dissolution and tissue response following long-term electrical stimulation at high charge densities” by R. K. Shepherd, _et al._ [https://doi.org/10.1088/1741-2552/abe5ba](https://doi.org/10.1088/1741-2552/abe5ba)
 - 2022 - “Electrochemical microelectrode degradation monitoring: in situ investigation of platinum corrosion at neutral pH” by M. Doering, J. Kieninger, G. A. Urban, A. Weltin [https://doi.org/10.1088/1741-2552/ac47da](https://doi.org/10.1088/1741-2552/ac47da)
 
-Stimulation and Tissue Damage:
+Stimulation-Induced Tissue Changes:
 - 1975 - “Electrical stimulation of the brain. III. The neural damage model” by RH Pudenz, LA Bullara, S Jacques, FT Hambrecht 
 - 2007 - “Tissue Damage by Pulsed Electrical Stimulation” by A. Butterwick, A. Vankov, P. Huie, Y. Freyvert, D. Palanker [https://doi.org/10.1109/TBME.2007.908310](https://doi.org/10.1109/TBME.2007.908310)
 - 2016 - “Tissue damage thresholds during therapeutic electrical stimulation” by S. F. Cogan, K. A. Ludwig, C. G. Welle, P. Takmakov [https://doi.org/10.1088/1741-2560/13/2/021001](https://doi.org/10.1088/1741-2560/13/2/021001)

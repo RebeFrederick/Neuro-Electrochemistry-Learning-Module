@@ -1,5 +1,5 @@
 # Neuro-Electrochemistry Learning Module
-by Rebecca A. Frederick, Ph.D. <br /> Last Updated 2025-OCT-23
+by Rebecca A. Frederick, Ph.D. <br /> Last Updated 2025-NOV-21
 
 
 # Course Outline
@@ -9,7 +9,14 @@ by Rebecca A. Frederick, Ph.D. <br /> Last Updated 2025-OCT-23
 # Reading Lists
 [NeuroEchem_Reading.md](https://github.com/RebeFrederick/Neuro-Electrochemistry-Learning-Module/tree/main/NeuroEchem_Reading.md)
 
+
+# Course Content
+[NeuroEchem_CourseContent.md](https://github.com/RebeFrederick/Neuro-Electrochemistry-Learning-Module/tree/main/NeuroEchem_CourseContent.md) <br />
+***< In Progress >***
+
+
 &nbsp;
+
 
 # App Instructions
 
@@ -58,4 +65,4 @@ This work is licensed under a
 [cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
 
 
-***END OF README FILE***
+***END OF READ ME FILE***

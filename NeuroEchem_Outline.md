@@ -1,5 +1,5 @@
 # **Neuro-Electrochemistry Learning Module Outline**
-by Rebecca A. Frederick, Ph.D. <br /> Last Updated 2025-OCT-23
+by Rebecca A. Frederick, Ph.D. <br /> Last Updated 2025-NOV-21
 
 A. Introduction <br />
 A1. Electronics and Circuits Basics <br />
@@ -29,7 +29,7 @@ A3c. Reduction and Oxidation Reactions <br />
 A3d. Fermi Level <br />
 A4. Materials Science <br />
 A5. Thermodynamics <br />
-A5a. "Laws" of Thermodynamics <br />
+A5a. Laws of Thermodynamics <br />
 A5b. Nernst Equation <br />
 
 B. Neural Engineering <br />
@@ -38,6 +38,7 @@ B1a. Definitions <br />
 B1b. Electrochemical Cells <br />
 B1c. Chemical Equilibrium vs. Electrochemical Equilibrium <br />
 B1d. Open Circuit Potential <br />
+B1e. Hardware Considerations <br />
 B2. Electrophysiology <br />
 B2a. Definitions <br />
 B2b. Patch Clamp Recording and Stimulation (Intracellular) <br />
@@ -52,27 +53,28 @@ B2d. Neural Stimulation (Extracellular)
   - Tripolar
   - Other Configurations
 - Stimulation Waveforms
-- Control/Method
+- Stimulation Control/Method
   - Voltage
   - Current
   - Mixed Methods
-- Shape
+- Stimulation Waveform
   - Square
   - Triangle
   - Sinusoidal
-- Phase
+- Square Waveform: Phase
   - Monophasic
   - Biphasic
   - Triphasic or Multi-phasic
-- Symmetry
+- Square Waveform: Symmetry
   - Symmetric
   - Asymmetric
 - Example and Parameter Definitions
   - Amplitude
-  - Pulse Width (Phase Width)
+  - Phase Width (Pulse Width)
+  - Inter-phase Delay
   - Period
   - Frequency
-  - Inter-phase Delay
+  - Inter-pulse period
 
 C. Advanced Topics <br />
 C1. Electrochemistry <br />
