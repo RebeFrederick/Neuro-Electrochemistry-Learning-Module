@@ -34,8 +34,8 @@ by Rebecca A. Frederick, Ph.D. <br /> Last Updated 2025-NOV-21
 ## Running the App Locally with Python
 
 1. Download and unzip the folder "Neuro-Electrochemistry-Learning-Module" from GitHub.
-2. Open and run the "app.py" file in any IDE (integrated development environment), </br>
-   or run the file in your python console with "python app.py".
+2. Open and run the "Echem_tutorial_app.py" file in any IDE (integrated development environment), </br>
+   or run the file in your python console with "python Echem_tutorial_app.py".
    - make sure you have installed dash with "pip install dash". </br>
      (or "conda install dash" if you use anaconda)
    - make sure your path points to the "Neuro-Electrochemistry-Learning-Module" folder.
