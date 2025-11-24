@@ -36,9 +36,9 @@ by Rebecca A. Frederick, Ph.D. <br /> Last Updated 2025-NOV-21
 1. Download and unzip the folder "Neuro-Electrochemistry-Learning-Module" from GitHub.
 2. Open and run the "app.py" file in any IDE (integrated development environment), </br>
    or run the file in your python console with "python app.py".
-  - make sure you have installed dash with "pip install dash" </br>
-    (or "conda install dash" if you use anaconda).
-  - make sure your path points to the "Neuro-Electrochemistry-Learning-Module" folder.
+   - make sure you have installed dash with "pip install dash". </br>
+     (or "conda install dash" if you use anaconda)
+   - make sure your path points to the "Neuro-Electrochemistry-Learning-Module" folder.
 3. Open your web browser. Open a new page with the URL "http://127.0.0.1:8050/".
 4. You can now interact with the different app pages and figures in your web browser.
 
