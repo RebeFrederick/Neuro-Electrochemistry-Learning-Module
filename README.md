@@ -1,5 +1,5 @@
 # Neuro-Electrochemistry Learning Module
-by Rebecca A. Frederick, Ph.D. <br /> Last Updated 2025-NOV-21
+by Rebecca A. Frederick, Ph.D. <br /> Last Updated 2025-NOV-24
 
 
 # Course Outline
@@ -71,4 +71,5 @@ This work is licensed under a
 
 
 ***END OF READ ME FILE***
+
 
