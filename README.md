@@ -7,7 +7,7 @@ by Rebecca A. Frederick, Ph.D. <br /> Last Updated 2025-NOV-24
 
 
 # Reading Lists
-[NeuroEchem_Reading.md](https://github.com/RebeFrederick/Neuro-Electrochemistry-Learning-Module/tree/main/NeuroEchem_Reading.md)
+[NeuroEchem_ReadingLists.md](https://github.com/RebeFrederick/Neuro-Electrochemistry-Learning-Module/tree/main/NeuroEchem_ReadingLists.md)
 
 
 # Course Content
@@ -71,5 +71,6 @@ This work is licensed under a
 
 
 ***END OF READ ME FILE***
+
 
 
