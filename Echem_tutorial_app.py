@@ -65,6 +65,12 @@ import dash_bootstrap_components as dbc
 import numpy as np
 
 
+# Define font size for page footer, figure annotations, etc.
+unifiedfontsize = 12
+titlestandoffvalue = 10
+
+
+
 
 #-----------------------------------------------------------------------------
 #                               SECTION 2
@@ -136,39 +142,47 @@ app.layout = html.Div(
     children=[
         # Top Row = Page Header
         html.Header([
-            html.H1("Neural Engineering Electrochemistry"),
-            html.H2("Cyclic Voltammetry (CV) Measurements",
+            html.H3("Neural Engineering Electrochemistry"),
+            html.H4("Cyclic Voltammetry (CV) Measurements",
                     style={'color':'darkblue',
-                           'padding':'5px 5px 0px 5px'}),
+                           'padding':'5px 0px 0px 0px'}),
             ],
             style={'textAlign':'center',
                    'backgroundColor':'rgba(211,211,211,0.8)',
-                    'padding': '15px 30px 15px 30px'} 
+                    'padding': '10px 30px 10px 30px'} 
             ),  # end header row brackets
 
         # 2nd Row = Data Selector
-            html.H4("Select Electrode Material to Display:",
-                   style={'padding': '5px 5px 0px 5px'}), # top, right, bottom, left
-            dcc.Checklist(
-                options=Materials_list, value=[Materials_list[0]],  # value=[Materials[0]] selectes first entry
-                inputStyle={"margin-right": "8px"},
-                inline=True, id="materials_checklist",
-                style={'padding': '5px 5px 5px 5px'}),
+            html.Label(
+            children=[
+                html.Span("Select Electrode Material to Display: ",
+                          style={"margin-right": "10px"}),
+                dcc.Checklist(    #!!! [to-do] change to: dcc.RadioItems(
+                    options=Materials_list, value=[Materials_list[0]],  # value=[Materials[0]] selectes first entry
+                    inputStyle={"margin-right": "7px"},
+                    inline=True, id="materials_checklist",),  #style={'padding': '5px 5px 5px 5px'}
+                   ], 
+            style={'display':'inline-flex', 'alignItems':'center',
+                   'padding':'4px 0px 10px 0px',} # Use flex for alignment within the label
+                ),
     
         # Next Row = CV and VT Data  
             dcc.Graph(id="CV_figure",
                 style={'height': '100%', 'width': '100%', # Make graph fill its parent
-                       'padding': '5px 15px 10px 15px'}, 
+                       'minHeight': '600px','minWidth': '1000px',
+                       'padding': '15px'}, 
                 config={'responsive': True}), #updates based on checklist
     
         # Last Row = Footer Information
         html.Footer(
             children=[
-            html.H6("© 2025 Rebecca A. Frederick, Ph.D. All rights reserved."),
+            html.P("© 2025 Rebecca A. Frederick, Ph.D. All rights reserved."),
             ],
             style={
             'textAlign': 'center',
-            'padding': '5px',
+            'padding': '0px 5px 5px 5px',
+            'font_size':unifiedfontsize,
+            'font-weight': 'bold'
             }),
     
         ],)  # end Container brackets
@@ -196,7 +210,6 @@ def update_CV_graph(material):
     CV_df = all_data[selected][1]
     meta_df = all_data[selected][0]
     GSA = meta_df['SurfaceArea_µm^2'][0]
-    unifiedfontsize = 14
     
     # split positive and negative current values for CSC calculations
     splitmask = CV_df['Im(A)_CV00050'] >= 0
@@ -232,7 +245,7 @@ def update_CV_graph(material):
     # ADD Current vs. Potential PLOT
     CV_figure.add_trace(go.Scatter(x=CV_df['Vf(V)_CV00050'], 
                                    y=CV_df['Im(A)_CV00050'], 
-                                   mode='lines', 
+                                   mode='lines+markers', 
                                    name='CV - Current vs. Potential',
                                    customdata=CV_df[['Time(s)_CV00050']].values,
                                    hovertemplate="Potential = %{x}<br>Current = %{y}<br>Time = %{customdata[0]}<extra></extra>"),
@@ -256,7 +269,7 @@ def update_CV_graph(material):
     # ADD Potential vs. Time PLOT
     CV_figure.add_trace(go.Scatter(x=CV_df['Time(s)_CV00050'], 
                                    y=CV_df['Vf(V)_CV00050'], 
-                                   mode='lines', 
+                                   mode='lines+markers', 
                                    name='Potential vs. Time',
                                    customdata=CV_df[['Im(A)_CV00050']].values,
                                    hovertemplate="Potential = %{y}<br>Current = %{customdata[0]}<br>Time = %{x}<extra></extra>"),
@@ -365,10 +378,10 @@ def update_CV_graph(material):
     CV_figure.add_trace(go.Table(
         header=dict(values=["    Material <br>Abbreviation", "    CSCc <br>mC/cm^2", "    CSCa <br>mC/cm^2"], align='center',
                     height=30, fill_color='rgb(60,60,60)', line_color='black', 
-                    font=dict(weight="bold", color='white', size=14)),
+                    font=dict(weight="bold", color='white', size=unifiedfontsize+2)),
         cells=dict(values=[selected, CSCc_CV00050, CSCa_CV00050], align='center',
                    height=30, fill_color='white', line_color='black', 
-                   font=dict(weight="bold", color='black', size=16)) 
+                   font=dict(weight="bold", color='black', size=unifiedfontsize+2)) 
     ), row=2, col=1)
 
 
@@ -377,7 +390,7 @@ def update_CV_graph(material):
     CV_figure.update_layout(
         showlegend=False,
         autosize=True,
-        margin=dict(t=10),  #r=40,b=40,l=40
+        margin=dict(t=0),  #r=40,b=40,l=40
         font_color='black',
         font_size=unifiedfontsize,
         #title_text='Cyclic Voltammetry (CV) Data',
@@ -388,6 +401,8 @@ def update_CV_graph(material):
 
     CV_figure.update_xaxes(row=1,col=1,  # Potential axis, Current vs. Potential Plot
         title_text ='Potential vs. Ag|AgCl (V)',
+        title_standoff = titlestandoffvalue,
+        automargin=True,
         range=[-0.95,0.85],
         tickmode="linear",
         tick0=-0.9,
@@ -408,6 +423,8 @@ def update_CV_graph(material):
     
     CV_figure.update_yaxes(row=1,col=1,  # Current axis, Current vs. Potential Plot
         title_text ='Current (A)',
+        title_standoff = titlestandoffvalue,
+        automargin=True,
         autorange=True,
         #range=[0,60],      #!!! [to-do] update so that range scales to selected data
         tickmode="auto",
@@ -427,6 +444,8 @@ def update_CV_graph(material):
     
     CV_figure.update_xaxes(row=1,col=2,  # Time axis, Potential vs. Time Plot
         title_text ='Time (s)',
+        title_standoff = titlestandoffvalue,
+        automargin=True,
         range=[0,60],      #!!! [to-do] update so that range scales to selected data
         tickmode="linear",
         tick0=0,
@@ -446,7 +465,9 @@ def update_CV_graph(material):
         )
     
     CV_figure.update_yaxes(row=1,col=2,   # Voltage axis, Potential vs. Time Plot
-        title_text ='Potential vs. Ref (V)',
+        title_text ='Potential (V_ref)',
+        title_standoff = titlestandoffvalue,
+        automargin=True,
         range=[-0.9,0.9],
         tickmode="linear",
         tick0=-0.9,
@@ -467,6 +488,8 @@ def update_CV_graph(material):
     
     CV_figure.update_xaxes(row=2,col=2,   # Time axis, Current vs. Time Plot
         title_text ='Time (s)',
+        title_standoff = titlestandoffvalue,
+        automargin=True,
         range=[0,60],      #!!! [to-do] update so that range scales to selected data
         tickmode="linear",
         tick0=0,
@@ -487,6 +510,8 @@ def update_CV_graph(material):
     
     CV_figure.update_yaxes(row=2,col=2,   # Current axis, Current vs. Time Plot
         title_text ='Current (A)',
+        title_standoff = titlestandoffvalue,
+        automargin=True,
         autorange=True,
         tickmode="auto",
         showgrid=True,
